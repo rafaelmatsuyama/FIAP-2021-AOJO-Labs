@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{base}">
+<head>
+    <meta charset="UTF-8">
+    <title>Sucesso</title>
+</head>
+<body>
+
+<div layout:fragment="conteudo">
+<h1>Sucesso!</h1>
+<p th:text="${prod.nome}"></p>
+<p th:text="${prod.preco}"></p>
+</div>
+
+<div layout:fragment="rodape">
+</div>
+
+</body>
+</html>
